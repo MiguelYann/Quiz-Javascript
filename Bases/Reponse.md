@@ -128,10 +128,35 @@ var nom;
 * Une variable doit avoir un nom (son identificateur), un type(qui est deéterminé en JavaScript uniquement par la valeur qu'il contient), et une valeur.
 * Le  nom d'une variable doit idéalement être simple et précis, ne courrez pas le risque de donnner des noms farfelus. De plus il doit respecter la notation CamelCase. C'est aà dire chaque nouveau mot dans l llongue chiane de caractere de son nom doit commencer par une lettre majuscule.
 
+* Une déclaration peut se faire pour plusieurs variables à la fois. Il suffit de les séparer par une virgule
+
 ``` Javascript
 
 var uneVariable = 3 // uneVariable représente son nom et 3 la valeur qu'il contient.
 
 var 7variables// le nom e cette variable est incorrect. 
 
+var uneVariable = 2, autreVariable = 4, encoreUneVariable = 5;
+
+```
+8. Le Javascript est un langage très faiblement typé ce qui signifie que vous n'avez pas besoin de spécifier le type d'une variable quand on l'a déclarer, comme pour d'autres Langage.  
+Ainsi le JavaScript devines implicitement le type d'une variable grâce à la valeur que vous lui assigné. On distingue donc 5 types principaux en JavaScript
+
+* **Number**: Le type number représente l'ensemble des nombres entiers, et réel positifs ou négatifs que l'on peut utiliser.
+
+```javascript
+
+var number1 = 2;
+var number2 = -2;
+var number3 = 2.3;
+``` 
+
+* **String**: Le type String représente une chaine de caractère ou un caractère, en gros c'est du texte. Pour indiquer qu'une variable est un string lors de l'assignation, il faut entourer le texte, avec les simples ou double guillemets.
+
+``` javascript
+var chaine1 = 'miguel';// chaine est de type string
+
+var chaine2 = "miguel"// chaine2 est de type string aussi.
+
+var chaine3 = "5";/* chaine3 est également de type string, en effe meme si vous placez un nombre et qu'il est entre les guillemets, JavaScript le considèrera comme une variable de type String*/
 
