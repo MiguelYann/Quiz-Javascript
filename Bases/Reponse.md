@@ -159,4 +159,13 @@ var chaine1 = 'miguel';// chaine est de type string
 var chaine2 = "miguel"// chaine2 est de type string aussi.
 
 var chaine3 = "5";/* chaine3 est également de type string, en effe meme si vous placez un nombre et qu'il est entre les guillemets, JavaScript le considèrera comme une variable de type String*/
+```
+
+* **Boolean**: Le type Boolean est un type particulier. En effet une variable en JavaScript de ce type ne peut stocker que deux valeurs, True ou False. Elles sont géneéralement utilisées pour des tests. Ainsi il faudra pas mettre de guillemet ou d'apostrophes.
+
+```javascript
+var a = true; // a stocke un booléen avec la valeur true
+
+var b = "false" ; // b stocke une varibale de type String.
+```
 
