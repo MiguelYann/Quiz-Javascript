@@ -1,5 +1,5 @@
 ## Bases
-
+Les réponses se trouvent [ici](Reponses.md), mais il est préferable de les regarder quand vous avez au préalable recherché une solution par vous-même 😉 . Je tiens à préciser que ce questionnaire a été conçu par moi-même et donc les réponses que vous trouverez sont également des solutions que je vous propose, mais vous êtes libres de faire des issues si cela vous semble incomplet, j'en serais ravis.
 ### Ecrire et Lire du code Javascript
 
 1. Maintenant que vous savez que le JavaScript est un langage qui va apporter un aspect dynamique et interactif aà nos pages. Si vous disposez d'un fichier HTML, indiquez comment vous l'inseriez à votre page.
