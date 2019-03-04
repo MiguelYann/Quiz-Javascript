@@ -179,3 +179,18 @@ var nom,prenom,age //Nous avons déclareé plusieurs variables sans initialisati
 
 var nom = 'miguel', prenom = 'yann', age = 12;// nous déclarons et initialisons plusieurs variables en même temps
 
+```
+
+10. En effet ces déclarations sont exactes en JavaScript, je vous ai dit plutôt que le JavaScript est un langage aà typage dynamique, c'est aà dire qu'une variable une fois déclarée peut prendre des valeurs différentes tout au long du programme. En effet
+
+```javascript
+var uneVariable = 'miguel' //ici uneVariable stocke une valeur de type String
+
+var uneVariable = 12;// ici uneVariable a stocke maintenant 12 et a écrasé l'ancienne valeur
+
+var uneVariable = true //Vous aurez compris, ici elle stocke une valeur de type boolean.
+
+```
+
+**_Retenez que en JavaScript le typage est faible et une variable peut prendre différentes valeurs_**
+
