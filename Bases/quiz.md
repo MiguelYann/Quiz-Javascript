@@ -23,3 +23,4 @@ Les réponses se trouvent [ici](Reponse.md), mais il est préferable de les rega
 6. Le JavaScript est un langage à typage fortement dynamique. Donnez la syntaxe de déclaration d'une variable.
 7.  Quelles sont les règles de nomenclature selon les bonnes pratiques pour déclarer une variable.
 8.  Présentez les types de variables que vous connaissez.
+9.  Maintenant que vous connaissez les types de variables, donnez trois façons de déclarer une variable en JavaScript, il s'agit ici de la syntaxe. Vous prendrez un exemple de votre choix.
