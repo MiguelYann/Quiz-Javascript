@@ -194,3 +194,27 @@ var uneVariable = true //Vous aurez compris, ici elle stocke une valeur de type 
 
 **_Retenez que en JavaScript le typage est faible et une variable peut prendre différentes valeurs_**
 
+11. Caster une variable signifie tout simplement de modifier son type en un autre type, une sorte de conversion.Il exite des fonctions qui vous permettent de le faire. Prenons un exemple plus parlant.
+
+```javascript
+var nom = "12";// je rappelle que 12 ici est considéré comme un String
+
+var nom = nom.ParseInt("12",10)// la variable nom a été caster en Number, ici 12 est bien une valeur de type Number.
+```
+De même nous pouvons caster une variable de type Number en String
+
+```javascript
+var nom = 12;//ici 12 est de type Number
+
+var nom = nom.toString();// nom ici va stocker la valeur de type string "12"
+
+```
+
+Attention si vous caster une valeur de type String qui ne peur être caster en Number vous obtiendrez une valeur de type **NaN**, qui signifie tout simplement Not A Number
+
+```javascript
+var nom = "miguel"
+var nom = parseInt("miguel",10);// ici nom stocke Nan car miguel ne peut pas être caster.
+```
+
+Vous pouvez faire de même pour caster pour les float avec la fonction parseFloat().
