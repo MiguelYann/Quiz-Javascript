@@ -168,4 +168,14 @@ var a = true; // a stocke un booléen avec la valeur true
 
 var b = "false" ; // b stocke une varibale de type String.
 ```
+9. Pour déclarer une variable en JavaScript on utilise le mot clé **var** suivi du nom de la variable. Lors de la déclaration, on peut assigneé une valeur aà cette variable, comme nous l'avons vu précedemment c'est cette valeur qui permettra de deéfinir son type. Ainsi nous allons prendre quelques exmples, pour vous montrer les différentes façons de déclarer des variables en JavaScript.
+
+```javascript
+var nom = 'miguel'; // Ceci est un variable de type String, nous avons initialisé une valeur à la variable nom lors de sa déclaration.
+
+var nom; // Nous avons déclarer la variable nom sans sans l'initialisé.
+
+var nom,prenom,age //Nous avons déclareé plusieurs variables sans initialisation
+
+var nom = 'miguel', prenom = 'yann', age = 12;// nous déclarons et initialisons plusieurs variables en même temps
 
