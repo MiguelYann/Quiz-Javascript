@@ -10,7 +10,7 @@ Les réponses se trouvent [ici](Reponse.md), mais il est préferable de les rega
 
 #### Indentation
 
-3. Que signifie indenter son code? Pourquoi est -il nécessairee de le faire?
+3. Que signifie indenter son code? Pourquoi est -il nécessaire de le faire?
 
 #### Commentaires
 
