@@ -72,7 +72,7 @@ Dans cette section nous parlerons de l'indentation des commentaires et des varib
 
 ### Indentation
 
-Indenter son code signifie de décaler certaines instructions par rapport à d'autres. Son but principal est de rendre son code plus lisible et plus compréhensible. Son utilisation est très simple il suffit de penser à une sorte arborescence.  
+Indenter son code signifie décaler certaines instructions par rapport à d'autres. Son but principal est de rendre son code plus lisible et plus compréhensible. Son utilisation est très simple il suffit de penser à une sorte arborescence.  
 ##### **Exemple code indenter**:  
 
 ``` html
