@@ -234,3 +234,14 @@ var division = a / b // division contient 1.3
 var multiplication = a*b // multiplication contient 130
 var modulo = b%a; // modulo contient 3
 var difference = a-b;// difference contient -3
+```
+
+* Ensuite les Strings: On parle ici d'opérations sur les valeurs de type String. Alors cela s'appelle la concaténation
+
+```javascript
+
+ var x = "miguel";
+ var y = "yann";
+ 
+ z = x+y; // z contient "miguelyann"
+
