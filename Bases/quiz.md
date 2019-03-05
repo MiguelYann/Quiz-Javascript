@@ -34,3 +34,9 @@ Les réponses se trouvent [ici](Reponse.md), mais il est préferable de les rega
     var uneVariable = 'miguel';
     var uneVariable = 12;
     var uneVariable = true;
+
+    ```
+
+11. Que signifie caster une variable? Vous prendrez un exemple pour illustrer.  
+    
+12. Quels types d'opérations qui peuvent s'effectuer entre les variables. Soyez précis et prenez des exemples. 

@@ -218,3 +218,19 @@ var nom = parseInt("miguel",10);// ici nom stocke Nan car miguel ne peut pas êt
 ```
 
 Vous pouvez faire de même pour caster pour les float avec la fonction parseFloat().
+
+
+12. Nous avons vu que les types de bases ou types primitifs de JavaScript sont les Numbers, les Strings et les Boolean. 
+
+* Commençons par les Numbers. Alors les valeurs de type Numbers sont les entiers positifs ou négatifs comme nous avons en mathématiques. Les opérations qui peuvent s'effectuer entre elles sont les opeérations de base en mathématiques à savoir: la multiplication, la division, la soustraction, l'addition et le modulo.
+
+```javascript
+
+var a = 10;
+var b = 13;
+
+var somme = a + b // somme contient 23
+var division = a / b // division contient 1.3
+var multiplication = a*b // multiplication contient 130
+var modulo = b%a; // modulo contient 3
+var difference = a-b;// difference contient -3
