@@ -43,3 +43,29 @@ Les réponses se trouvent [ici](Reponse.md), mais il est préferable de les rega
 13. Que signifie cette "phrase"pour vous 
     ```javascript
     console.log()
+    ```
+14. Suivez les instructions suivantes et devinez ce que fera le petit programme suivant:
+    ```javascript
+    var a1 = '2';
+    var a2 = '4'
+    var b1 = 4;
+    var b2 = 2;
+    var c1 = "hello";
+    var c2 = "allo";  
+
+    var n1 = a1 + a2;
+    var n2 = a1 + b1;
+    var n3 = a1 * a2;
+    var n4 = a1 * b1;
+    var n5 = a1 + c1;
+    var n6 = a1 * c2;
+    var n7 = c1 + c2;
+    var n8 = c1 + b2;
+    var n9 = a1 + b1 + c1;
+    var n10 = a1 + a2 + b1 + b2 + c1 + c2
+    var n10 = a1 * a2 + b1 + b2 + c1 + c2
+
+
+   
+
+
