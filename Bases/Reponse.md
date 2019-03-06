@@ -236,12 +236,36 @@ var modulo = b%a; // modulo contient 3
 var difference = a-b;// difference contient -3
 ```
 
-* Ensuite les Strings: On parle ici d'opérations sur les valeurs de type String. Alors cela s'appelle la concaténation
+* Ensuite les Strings: On parle ici d'opérations sur les valeurs de type String. Seul l'opérateur **+** peut être utilisé pour les valeurs de ce type, on parle alors de concaténation. Vous trouverez des exemples ci-dessous
 
 ```javascript
 
  var x = "miguel";
  var y = "yann";
+ var z = x + y; //// z contient "miguelyann"
  
- z = x+y; // z contient "miguelyann"
+
+
+ ```
+
+ * Concernant les Boolean: Ce type de variable est spéciale car il existe uniquement des opérateurs dits "logiques" qui s'effectuent sur les valeurs de type boolen(en l'occurence **true** et **false**)
+ Il s'agit des opérateurs suivants: **&&**, **||**, et  **!**  
+
+ **&&** représente le ET Logique  
+ **||** représente le OU logique
+ **!** représente le NON logique
+
+ je vous invité à consulter cette [page](https://fr.wikipedia.org/wiki/Alg%C3%A8bre_de_Boole_(logique)) pour plus vous documenter sur l'algèbre de Boole, pour mieux comprendre de quoi il s'agit.
+
+ ```javascript
+ var a = true;
+ var b = false;
+
+ var c = a&&b; // c stocke ici false
+ var d = a||b; // d stocke ici true
+ var e = !a; // e stocke ici false
+ ```
+ 
+
+
 
