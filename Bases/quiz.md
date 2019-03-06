@@ -39,4 +39,7 @@ Les réponses se trouvent [ici](Reponse.md), mais il est préferable de les rega
 
 11. Que signifie caster une variable? Vous prendrez un exemple pour illustrer.  
     
-12. Quels types d'opérations qui peuvent s'effectuer entre les variables. Soyez précis et prenez des exemples. 
+12. Quels types d'opérations qui peuvent s'effectuer entre les variables. Soyez précis et prenez des exemples.  
+13. Que signifie cette "phrase"pour vous 
+    ```javascript
+    console.log()

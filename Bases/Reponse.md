@@ -265,7 +265,11 @@ var difference = a-b;// difference contient -3
  var d = a||b; // d stocke ici true
  var e = !a; // e stocke ici false
  ```
- 
+
+ 13. Cette phrase signifie d'afficher un message dans la console d'un navigateur Web. En effet **console** est un objet fourni par le langage Javascript(On en viendra plus tard), et **log** est une méthode de l'objet **console**. Et les arguments que vous passerez à cette méthode seront affichés à dans la console de votre navigateur(comme nous l'avons vu à la question numéro 2)
+
+![](console.png)
+
 
 
 
