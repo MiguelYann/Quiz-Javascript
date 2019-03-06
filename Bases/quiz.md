@@ -63,7 +63,7 @@ Les réponses se trouvent [ici](Reponse.md), mais il est préferable de les rega
     var n8 = c1 + b2;
     var n9 = a1 + b1 + c1;
     var n10 = a1 + a2 + b1 + b2 + c1 + c2
-    var n10 = a1 * a2 + b1 + b2 + c1 + c2
+    var n11 = a1 * a2 + b1 + b2 + c1 + c2
 
 
    
