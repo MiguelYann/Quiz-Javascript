@@ -378,4 +378,21 @@ var convertNom = parseInt(votreNom,10); // On convertit la valeur de votre nom e
 
 console.log("la variable utilisée pour mon nom est de type:" + typeof(nomPrenom)+ "\nLa variable utilisée pour votre nom à vous est de type:" + typeof(votreNom)+ "\n Et celle utilisée pour la conversion de votre nom est de type:" + typeof(convertNom));
 
+```
 
+17. 
+```javascript  
+
+var x,y;// On déclare deux variables x et y
+
+x++;//Il s'agit de la post-incrémentation, c'est aà dire que l'on ajoute 1 après l'avoir utilisé
+
+++x; //Il s'agit de la pré-incrémentation, on ajoute 1 à avant de l'utiliser
+
+y--// Il s'agit de la post-décrémentation, on soustrait 1 à y aprèa l'avoir utilisée
+
+--y// Il s'agit de la pré-décrémentation, on soustrait 1 à y avant de l'avoir utilisée.
+
+x+=y;// Il s'agit tout simplement de faire cette instruction x = x + y;
+
+y-=x;// Il s'agit de y = y - x;

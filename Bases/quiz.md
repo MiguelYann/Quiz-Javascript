@@ -78,6 +78,18 @@ je m'appelle Miguel Yann.
 
 Vous allez caster votre nom en une valeur de type Number. Vous afficher le type de toutes les variables que vous avez utilisez durant ce programme.
 
+17. Pour vous que signifie ces lignes de codes?
+
+```javascript
+var x,y;
+
+x++;
+++x;
+y--;
+--y;
+x+=y;
+y-=x;
+
 
 
 
