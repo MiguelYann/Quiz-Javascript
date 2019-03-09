@@ -285,7 +285,7 @@ var difference = a-b;// difference contient -3
 * ainsi il utilise une sorte d'inférence pour deviner que vous voulez multiplier de variable de type Number*/
 
     var n3 = a1 * a2;  
-    
+
     /*n4 stocke 8 par le même principe, mais je tiens à préciser que c'est parce que l'opérateur peut s'effectuer entre les deux opérandes, une valeur de type String ne peut se multiplier par une valeur de type Number*/
     var n4 = a1 * b1;
 
@@ -315,7 +315,43 @@ var difference = a-b;// difference contient -3
     /*n12 stocke "624helloallo"*/
     var n12 = b1 + b2 + a1 + a2 + c1 + c2
 
+```
+
+15. Rappellons rapidement ce que sont les tables de vérité de ET, et de OU.
+
+**TABLE VERITE ET**    
+
+1  **ET** 0  => 0  
+1  **ET** 1  => 1  
+0  **ET** 1  => 0  
+0  **ET** 0  => 0
 
 
+**TABLE VERITE ET**    
 
+1  **OU** 0  => 1  
+1  **OU** 1  => 1  
+0  **OU** 1  => 1  
+0  **OU** 0  => 0
 
+Alors en programmation nous parlons en termes de variables de type boolean, ici 0 correspond à la valeur false et 1 à la valeur true. Vous avez donc manipulé les opérateurs avec les variables de ce type.
+
+```javascript
+/*Le nom de variable de reflete pas la vraie vie ceci est juste pour un exemple de code 😆*/
+var verite = true;
+var mensonge = false;
+
+/*Le programme affichera toutes les valeurs de notre table de vérite*/
+
+/*ET*/
+console.log(verite && mensonge);// false
+console.log(verite && verite); // true
+console.log(mensonge && verite); // false
+console.log(mensonge && mensonge) // false
+
+/*OU*/
+
+console.log(verite || mensonge); // true
+console.log(verite || verite); // true
+console.log(mensonge || verite); // true
+console.log(mensonge || mensonge); // false
