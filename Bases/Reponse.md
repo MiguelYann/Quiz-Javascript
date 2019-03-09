@@ -372,3 +372,10 @@ console.log(nbreCaractereNomPrenom); // 11
 
 var votreNom = nomPrenom.replace("Miguel Yann", "\"votre nom\""); // il affichera "votre nom";
 
+var convertNom = parseInt(votreNom,10); // On convertit la valeur de votre nom en Number.
+
+/*Affichage de tous les types de variables utilisées*/
+
+console.log("la variable utilisée pour mon nom est de type:" + typeof(nomPrenom)+ "\nLa variable utilisée pour votre nom à vous est de type:" + typeof(votreNom)+ "\n Et celle utilisée pour la conversion de votre nom est de type:" + typeof(convertNom));
+
+
