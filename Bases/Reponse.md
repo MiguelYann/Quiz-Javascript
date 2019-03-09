@@ -270,6 +270,52 @@ var difference = a-b;// difference contient -3
 
 ![](console.png)
 
+14. Nous allons procédez questions par question en commençant biensur par la variable n1.
+```javascript
+/* n1 stocke '24'. En effet il s'agit ici de la concaténation de deux chaines de caractères*/  
+
+    var n1 = a1 + a2;  
+
+/*n2 stocke '24', car lorsque vous additionnez une variable de type String avec un nombre, le type String   
+*prend la priorité et javaScript considère que vous faites allusion à deux variables de type String*/
+
+    var n2 = a1 + b1;
+
+/* n3 stocke 8. Ici le javascript sait que l'on ne peut pas multiplier deux variables de type String,  
+* ainsi il utilise une sorte d'inférence pour deviner que vous voulez multiplier de variable de type Number*/
+
+    var n3 = a1 * a2;  
+    
+    /*n4 stocke 8 par le même principe, mais je tiens à préciser que c'est parce que l'opérateur peut s'effectuer entre les deux opérandes, une valeur de type String ne peut se multiplier par une valeur de type Number*/
+    var n4 = a1 * b1;
+
+    /*n5 stocke '2hello'. Il s'agit ici de la concaténation de deux valeurs de type String*/
+    var n5 = a1 + c1;
+
+    /*n6 stocke NaN. En effet comme je vous l'ai précisé pour l'exemple passé(celui de n4).
+    Deux variables de type String ne peuvent pas effectuer une opération * sauf si ce sont des valeurs numériques que vous déclarés en tant que String. */
+    var n6 = a1 * c2;
+
+    /*n7 stocke "helloallo". Il s'agit de la concaténation de deux variables de type String.*/
+    var n7 = c1 + c2;
+
+    /*n8 stocke "hello4. En effet lorsque vous additionnez une valeur de type String avec une valeur de type Number,  
+     l'inférence du JavaScript considère que la valeur qui vient derrière la valeur de type String est un String aussi.*/
+    var n8 = c1 + b2;
+
+    /*n9 stocke "24hello". Par le même principe*/
+    var n9 = a1 + b1 + c1;
+
+    /*n10 stocke "2442helloallo". */
+    var n10 = a1 + a2 + b1 + b2 + c1 + c2
+
+    /*n11 stocke "14helloallo*/
+    var n11 = a1 * a2 + b1 + b2 + c1 + c2
+
+    /*n12 stocke "624helloallo"*/
+    var n12 = b1 + b2 + a1 + a2 + c1 + c2
+
+
 
 
 

@@ -44,14 +44,15 @@ Les réponses se trouvent [ici](Reponse.md), mais il est préferable de les rega
     ```javascript
     console.log()
     ```
-14. Suivez les instructions suivantes et devinez ce que fera le petit programme suivant:
+14. Soient les déclarations des variables suivantes, vous devrez indiquez ce que chacune d'elles stocke comme valeurs(biensur le type). Vous essayerez de justifier au maximum possible vos affirmations. Il n'est pas question d'afficher les valeurs aà la console, mais de bien comprendre le mécanisme des opéretions effectuées sur les variables de différents types.
+    
     ```javascript
     var a1 = '2';
     var a2 = '4'
     var b1 = 4;
     var b2 = 2;
-    var c1 = "hello";
-    var c2 = "allo";  
+    var c1 = 'hello';
+    var c2 = 'allo';  
 
     var n1 = a1 + a2;
     var n2 = a1 + b1;
@@ -64,6 +65,15 @@ Les réponses se trouvent [ici](Reponse.md), mais il est préferable de les rega
     var n9 = a1 + b1 + c1;
     var n10 = a1 + a2 + b1 + b2 + c1 + c2
     var n11 = a1 * a2 + b1 + b2 + c1 + c2
+    var n12 = b1 + b2 + a1 + a2 + c1 + c2
+
+15. Une table de vérité est une table mathématique utilisée en logique en particulier le calcul propositionnel classique et l'algèbre de Boole pour représenter de manière sémantique des expressions logiques et calculer la valeur de leur fonction relativement à chacun de leurs arguments fonctionnels.  
+Vous allez faire un programme qui affiche les tables de vérité de ET et OU. (Très simple ne vous compliquez pas la tache).
+Exemple: 1 et 0 => 0 Rappelez vous des types de variables vus prédemment.
+
+16. 
+
+
 
 
    
