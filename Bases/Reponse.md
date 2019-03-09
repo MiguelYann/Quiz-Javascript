@@ -362,6 +362,7 @@ console.log(mensonge || mensonge); // false
 16. 
 ```javascript
 var nomPrenom = "Miguel Yann";
+console.log(nomPrenom);
 
 var positionPrenom = nomPrenom.indexOf("Yann")
 console.log(positionPrenom); // 7
