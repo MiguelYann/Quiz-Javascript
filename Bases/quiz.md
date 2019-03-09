@@ -71,11 +71,9 @@ Les réponses se trouvent [ici](Reponse.md), mais il est préferable de les rega
 Vous allez faire un programme qui affiche les tables de vérité de ET et OU. (Très simple ne vous compliquez pas la tache).
 Exemple: 1 et 0 => 0 Rappelez vous des types de variables vus prédemment.
 
-16. 
-
-
-
-
-   
+16. Vous allez me donner des informations sur moi. Faites un programme qui affiche mon nom et mon prénom à la console. Vous afficherez à quelle position mon prénom se trouve dans la chaine de caractère ainsi crée. Vous me direz combien de caractères portent mon nom.(espace inclus").
+Ensuite c'est vous qui prenez les reines!!!
+Vous allez remplacez mon et mon prénom par le votre(vous devez mettre votre nom en guillemet). 
+je m'appelle Miguel Yann.
 
 

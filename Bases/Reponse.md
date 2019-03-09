@@ -355,3 +355,19 @@ console.log(verite || mensonge); // true
 console.log(verite || verite); // true
 console.log(mensonge || verite); // true
 console.log(mensonge || mensonge); // false
+
+
+```
+
+16. 
+```javascript
+var nomPrenom = "Miguel Yann";
+
+var positionPrenom = nomPrenom.indexOf("Yann")
+console.log(positionPrenom); // 7
+
+var nbreCaractereNomPrenom = nomPrenom.length();
+console.log(nbreCaractereNomPrenom); // 11
+
+var votreNom = nomPrenom.replace("Miguel Yann", "\"votre nom\""); // il affichera "votre nom";
+
