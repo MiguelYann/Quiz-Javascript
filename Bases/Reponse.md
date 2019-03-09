@@ -396,3 +396,13 @@ y--// Il s'agit de la post-décrémentation, on soustrait 1 à y aprèa l'avoir 
 x+=y;// Il s'agit tout simplement de faire cette instruction x = x + y;
 
 y-=x;// Il s'agit de y = y - x;
+
+```
+18. 
+```javascript
+console.log(a++); // 10
+console.log(a++); //11
+console.log(a); //12
+console.log(++a); // 13
+console.log(a++); //13
+

@@ -90,6 +90,20 @@ y--;
 x+=y;
 y-=x;
 
+```
+18. Devinez ce que ce programme affichera
+
+```javascript
+
+var a = 10;
+
+console.log(a++);
+console.log(a++);
+console.log(a);
+console.log(++a);
+console.log(a++);
+
+
 
 
 
