@@ -91,7 +91,7 @@ x+=y;
 y-=x;
 
 ```
-18. Devinez ce que ce programme affichera
+18. Dévinez ce que ce programme affichera
 
 ```javascript
 
@@ -102,6 +102,9 @@ console.log(a++);
 console.log(a);
 console.log(++a);
 console.log(a++);
+```
+
+19. Quelle est la différence entre les opérateurs == et ===, != et !==? Un ezemple serait le bienvenue pour soutenir votre argumentaire
 
 
 
