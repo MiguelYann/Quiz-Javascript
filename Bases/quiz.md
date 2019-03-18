@@ -115,3 +115,19 @@ Cette réduction est faites pour les personnes qui ont entre 12 et 25 ans. De pl
  Soyez créatif. Vous prendrez des valeurs pour faire des tests
 
 
+22. Devinez ce que va afficher le programme suivant:
+```javascript
+var x = 12, y = "", z , t = "t";
+
+if(x){
+    console.log("si je suis x alors...")
+}
+if(y){
+    console.log("si je suis y alors...")
+}
+if(z){
+    console.log("si je suis z alors...")
+}
+if(t){
+    console.log("si je suis t alors...")
+}
