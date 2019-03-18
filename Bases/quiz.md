@@ -116,6 +116,7 @@ Cette réduction est faites pour les personnes qui ont entre 12 et 25 ans. De pl
 
 
 22. Devinez ce que va afficher le programme suivant:
+
 ```javascript
 var x = 12, y = "", z , t = "t";
 
@@ -131,3 +132,7 @@ if(z){
 if(t){
     console.log("si je suis t alors...")
 }
+```
+
+23. Connaissez vous les opérateurs ternaires? Vous prendrez un exemple pour montrer leur utilisation. Faites un programme qui permettra d'afficher que vous connaissez les ternaires. En fait, si vous avez une compétence "javascript" alors le programme affichera : "Vous connaissez les ternaires". Dans le cas échéant il affichera "Revoyez le Quizz de Miguel". Pensez au variable.
+
