@@ -437,3 +437,28 @@ if(age < 25 && age > 12){
     }
 }
 
+```
+21. Alors ici nous allons créez une variable heure et appliquez les différentes conditions imposées par le programme. Nous pouvions utilisez aussi une fonction mais il s'agit de quelque chose de très basique, si vous l'avez fait BRAVO! C'est la meilleure façon de le faire.
+
+```javascript
+
+var heure = 17
+
+/*L'algorithme de base est le suivant et vous pourrez changer la valeur de la variable heure pour tester*/
+if(typeof(entree)==="number")
+{
+    if(heure < 12){
+        console.log("Matin")
+    }
+    else if(heure===12){
+        console.log("Midi")
+    }
+    else if(heure<18){
+        console.log("Apres midi")
+    }
+    else{
+        console.log("Soir")
+    }
+}
+    else{
+        console.log("Entree une valeur entiere")
