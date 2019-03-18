@@ -482,4 +482,13 @@ if(z){
 if(t){
     console.log("si je suis t alors...")// cette instruction s'affichera
 }
+```
 
+23. Ici nous allons créer une variable nommée competence et lui affectée la valeur "javascript". Les ternaires sont des structures qui permettent également d'écrire des conditions mais d'une façon particulière. Dans le cas général, elles sont équivalente aux conditions if...else. Ainsi leur syntaxe est la suivante:  
+
+__(condition)?instruction1:instruction2__
+
+```javascript
+var competence = "javascript"
+
+var decision = (competence ==="javascript")? "Vous connaissez les ternaires": "Revoyez le Quizz de Miguel"
