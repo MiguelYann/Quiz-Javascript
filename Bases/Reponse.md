@@ -398,11 +398,42 @@ x+=y;// Il s'agit tout simplement de faire cette instruction x = x + y;
 y-=x;// Il s'agit de y = y - x;
 
 ```
+
 18. 
+
 ```javascript
 console.log(a++); // 10
 console.log(a++); //11
 console.log(a); //12
 console.log(++a); // 13
 console.log(a++); //13
+
+```
+
+19. **==**, **===**, **!=** et **!==** sont deux opérateurs de comparaison. Elles permettent de tester des égalités. Mais il existe une différence entre elles.
+
+* **==** permet de tester l'égalité sur les valeurs des variables.  
+* **===** permet de tester l'égalité sur les valeurs et sur le type des valeurs.  
+* **!=**  permet de tester si les vales valeurs sont différentes(en valeur)
+* **!==** permet de tester si les valeurs sont différentes(en valeur et type)
+
+```javascript
+3 == '3' // true;
+3 === '3' // false;
+23!='23' // false;
+23!=='23' // true;
+```
+
+20. Alors ici nous allons créer une variable qui contient le nom de ce Monsieur, et une autre qui contient son age.
+
+```javascript
+
+var nom = "miguel"
+var age = 17
+
+if(age < 25 && age > 12){
+    if (age > 17){
+        console.log(name + " " + vous avez droit à réduction 12-25, et à la réduction MacDO)
+    }
+}
 

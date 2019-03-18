@@ -104,9 +104,14 @@ console.log(++a);
 console.log(a++);
 ```
 
-19. Quelle est la différence entre les opérateurs == et ===, != et !==? Un ezemple serait le bienvenue pour soutenir votre argumentaire
+19. Quelle est la différence entre les opérateurs == et ===, != et !==? Un ezemple serait le bienvenu pour soutenir votre argumentaire
 
+20.Miguel a 17 ans et il aimerais savoir s'il a droit à la réduction 12-25. Faites un programme qui va lui permettre de savoir. 
+Cette réduction est faites pour les personnes qui ont entre 12 et 25 ans. De plus il a appris qu'il existe une réduction pour ceux qui ont plus de 17 ans ont droit aà un repas gratuit au MacDo. Dans ce même programme vous lui indiquerez les réductions dont il aura droit.
 
+21.**QUEL TEMPS FAIT-IL AUJOURD'HUI?** 
 
+ Suivez bien les instructions suivantes: Vous devez faire un programme qui permet de donner le temps qu'il fait en fonction d'une heure. Les consignes sont les suivantes: Si l'heure est inférieure à 12H c'est le matin, si l'heure est inférieure à 18 c'est l'après-midi, s'il est 12H c'est midi, si l'heure est au delà des heures spécifiées c'est le soir. Vous devriez écrire un programme qui permet à un utilisateur qui entre une heure quelconque et qu'on puisse lui dire l'heure qu'il est.
+ Soyez créatif. Vous prendrez des valeurs pour faire des tests
 
 
