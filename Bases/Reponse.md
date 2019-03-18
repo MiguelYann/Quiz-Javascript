@@ -462,3 +462,24 @@ if(typeof(entree)==="number")
 }
     else{
         console.log("Entree une valeur entiere")
+    }
+
+   ``` 
+   22. Alors ici notre programme s'éxecutera ainsi:
+
+```javascript
+var x = 12, y = "", z , t = "t";
+
+if(x){
+    console.log("si je suis x alors...")// cette instruction s'affichera
+}
+if(y){
+    console.log("si je suis y alors...")// cette instruction ne s'affichera pas
+}
+if(z){
+    console.log("si je suis z alors...")// cette instruction ne s'affichera pas
+}
+if(t){
+    console.log("si je suis t alors...")// cette instruction s'affichera
+}
+
